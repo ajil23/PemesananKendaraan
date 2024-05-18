@@ -49,6 +49,8 @@ PHP version : 8.3.4
 Framework : Laravel, Tailwind
 ```
 
+<img src="erd.png" alt="Build Status">
+
 ## Guide
 A. Admin
 1. Login sebagai admin
