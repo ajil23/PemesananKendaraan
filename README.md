@@ -43,9 +43,11 @@ pass  : director123
 ```
 
 ## Information
+```
 Mysql version : 8.0.30
 PHP version : 8.3.4
 Framework : Laravel, Tailwind
+```
 
 ## Guide
 A. Admin
