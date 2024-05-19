@@ -34,6 +34,9 @@
   </nav>
 
   <div class="w-full px-6 py-6 mx-auto">
+    <a href="cetakpemesanan" target="_blank">
+      <button type="button" class="inline-block px-8 py-2 mb-4 ml-auto font-bold leading-normal text-center text-white align-middle transition-all ease-in bg-blue-500 border-0 rounded-lg shadow-md cursor-pointer text-xs tracking-tight-rem hover:shadow-xs hover:-translate-y-px active:opacity-85">SImpan Excel</button>
+    </a>
     <!-- table 1 -->
     <div class="flex flex-wrap -mx-3">
       <div class="flex-none w-full max-w-full px-3">
