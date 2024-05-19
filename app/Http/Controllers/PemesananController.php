@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\PemesananExport;
 use App\Models\Driver;
 use App\Models\Kendaraan;
 use App\Models\Pemesanan;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 
 class PemesananController extends Controller
 {
@@ -54,4 +56,9 @@ class PemesananController extends Controller
         $datapemesanan->delete();
         return redirect()->route('pemesanan.view');
     }
+
+    public function export_excel()
+	{
+		return Excel::download(new PemesananExport, 'pemesanan.xlsx');
+	}
 }

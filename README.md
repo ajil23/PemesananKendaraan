@@ -49,7 +49,9 @@ PHP version : 8.3.4
 Framework : Laravel, Tailwind
 ```
 
-<img src="erd.png" alt="Build Status">
+<img src="erd.png" alt="ERD">
+
+<img src="Diagram.png" alt="activity">
 
 ## Guide
 A. Admin
