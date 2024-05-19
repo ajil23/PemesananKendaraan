@@ -49,6 +49,7 @@ Route::post('storepemesanan', [PemesananController::class, 'store'])->name('peme
 Route::get('editpemesanan/{id}', [PemesananController::class, 'edit'])->name('pemesanan.edit');
 Route::post('updatepemesanan/{id}', [PemesananController::class, 'update'])->name('pemesanan.update');
 Route::get('deletepemesanan/{id}', [PemesananController::class, 'delete'])->name('pemesanan.delete');
+Route::get('cetakpemesanan', [PemesananController::class, 'export_excel'])->name('pemesanan.excel');
 
 // Driver
 Route::get('driver', [DriverController::class, 'index'])->name('driver.view');
